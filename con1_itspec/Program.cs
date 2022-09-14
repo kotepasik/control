@@ -24,3 +24,9 @@ void StringsLessThenThree(string[] array1, string[] array2)
         }
     }
 }
+
+string[] array3 = { "Baba", "hay", "1456", "you", "@#$=", "186541", "man", "+++++", ")", "comp", "IGRA" };
+string[] array4 = new string[array3.Length];
+
+StringsLessThenThree(array3, array4);
+PrintArray(array4);
